@@ -1,0 +1,24 @@
+#city
+{
+    display: inline;
+}
+#USA
+{
+    display: none;
+}
+#up
+{
+    position: fixed;
+    right: 0px;
+    top: 00px;
+    float: right;
+    padding: 20px;
+    display: none;
+}
+
+.req,#dif,#mailError,#mobile
+{
+    color: red;
+    display: none;
+}
+

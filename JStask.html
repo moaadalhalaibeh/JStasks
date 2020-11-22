@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>JS Tasks</title>
+    <link rel="stylesheet" href="JStask.css">
+    <script src="JStask.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body onscroll="Scroll()">
+   
+   
+   
+    <!-----------Task one ----------->
+    
+   <input id="inputColor" type="color">
+   <button id="changeColor" onclick="changeColors()">Click To Change Color</button>
+   <br><br><br><br>
+   <!-----------Task one ----------->
+
+
+
+    <!-----------Task two ----------->
+   <h1>Task 2</h1>
+<ul>
+    <li id="ans1">Server Side </li>
+    <li id="ans2">Client Side </li>
+    <li id="ans3">Both Side</li>
+    <li id="ans4">Fries And Coke</li>
+</ul>
+<button id="Show" onclick="ShowAnswer()">ShowAnswer</button>
+<br><br><br><br>
+
+   
+    <!-----------Task two ----------->
+
+
+
+    <!-----------Task three ----------->
+    <h1>Task 3</h1>
+   <select  onchange="Contries()" id="country">
+    <option value="1" id="Conutry1">Jordan</option>
+    <option value="2" id="Conutry2" >USA</option>
+   </select>
+ 
+ 
+    <div id="city">
+        <span>City</span> 
+        <select>
+        <option >zarqa</option>
+        <option >Amman</option>
+        </select>
+    </div>
+
+    <div id="USA">
+        <span>States</span> <select  id="State">
+            <option >Florida</option>
+            <option >Alaska</option>
+        </select>
+
+        <span>Zip Code</span> <select  id="Code">
+            <option >5000</option>
+            <option >6000</option>
+        </select>
+    </div>
+    
+    
+
+      
+    <!-----------Task three ----------->
+   
+
+        <!-----------Task four ----------->
+        <button id="up" onclick="UP()">Weeeeeeee !</button>
+        <br><br><br><br><br><br>
+        <!-----------Task four ----------->
+
+
+
+
+        <!-----------Task five ----------->
+        <h1>Task 5</h1>
+
+        <input type="text" id="field1" placeholder="Enter number"> op 
+        <input type="text" id="field2" placeholder="Enter number"> =
+        <input type="text" id="field3" >
+        <br><br>
+        <button id="op1" onclick="math1()">+</button>
+        <button id="op2" onclick="math2()">-</button>
+        <button id="op3" onclick="math3()">*</button>
+        <button id="op4" onclick="math4()">/</button>
+        <br><br><br><br><br><br>
+
+        <!-----------Task five ----------->
+
+
+
+
+        <!-----------Task six ----------->
+        <h1>Task 6</h1>
+            <fieldset><br>
+                <form action="">
+                    <span>user name :</span>
+                    <input type="text" id="name"><span class="req" > * </span><br><br>
+                    <span>password :</span>
+                    <input type="password" id="pass"><span class="req" > * </span><span id="dif">doesn't match , Please Retype The Password</span><br><br>
+                    <span>Re-type password:</span>
+                    <input type="password" id="pass1"><span class="req" > * </span><br><br>
+                    <span>email :</span>
+                    <input type="text" id="mail"><span class="req" > * </span><span id="mailError">please retype your email</span><br><br>
+                    <span>Mobile Number :</span>
+                    <input type="text" id="number"><span class="req" > * </span><span id="mobile">please retype your Mobile Number ( jsut numbers)</span><br><br>
+                    <span class="req" > * Means field is requierd</span><br><br>
+                    <input type="button" id="sub" value="Submit" onclick="subM()">
+                </form>
+            </fieldset>
+        <br><br><br><br><br><br>
+        <!-----------Task six ----------->
+
+
+        <!-----------Task seven ----------->
+
+        <h1>Task 7</h1>
+
+        <span>This is android course ?</span><br>
+        <input type="radio" name="ques1" value="A">true <br>
+        <input type="radio" name="ques1" value="B">false <br><br><br>
+        <span>this course is ?</span><br>
+        <input type="radio" name="ques2" value="A">PHP <br>
+        <input type="radio" name="ques2" value="B">FullStack <br>
+        <input type="radio" name="ques2" value="C">c++ <br><br><br>
+        <span>we live in ?</span><br>
+        <input type="radio" name="ques3" value="A">KSA <br>
+        <input type="radio" name="ques3" value="B">USA <br>
+        <input type="radio" name="ques3" value="C">JORDAN <br><br><br>
+       
+
+        <button onclick="Check()">Check</button>
+            
+        <br><br><br><br><br><br>
+<p id="tes">Your Result Is : </p>
+        <!-----------Task seven ----------->
+
+
+
+
+
+
+</body>
+</html>
